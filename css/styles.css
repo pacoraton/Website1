@@ -1,0 +1,174 @@
+@font-face{
+    font-family: "Lato2OFL";
+    src: url(fonts/Lato2OFL/Lato-regular.ttf)
+}
+
+
+
+.navbar{
+    background-color: #182652;
+    color:white;
+}
+
+.navbar-brand img{
+    width: 60%;
+}
+  
+  .carousel-indicators li{
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+  }
+
+ .carousel-caption{
+    top: 60%;
+    transform: translateY(-50%);
+ }
+
+ .barra{
+     background-color: #182652;
+     color:white;
+ }
+
+ .barra .elementos{
+    text-align: center;
+
+ }
+
+ .elementos i {
+   font-size: 40px;
+   color:white;
+   display: inline;
+ }
+
+ .elemento p{
+     display: inline-block;
+     width: 100%;
+ }
+
+
+
+.servicios ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+
+    }
+.servicios ul li{
+    background: url("img/viñetapng.png") no-repeat left center;
+height: 30px;
+padding-left: 25px;
+}
+
+
+
+ div.nosotros{
+
+    background-image: url(../img/Fondo_Triangulos.jpg);
+    width: 100%;
+    height: 100vh;
+
+ }
+
+
+ div.nosotros img{
+    margin: 0 auto;
+    margin-top: 20%;
+ }
+
+ div.col.iconos-nos{
+
+    margin-top: 20%
+ }
+ div.col.iconos-nos i{
+  color: white;
+  margin-left: 20px;
+  margin-right: 35px;
+  font-size: 2rem;
+  text-align: right;
+  padding: 25px;
+ }
+ div.col.iconos-nos i span{
+    font-size: 10px;
+ }
+ .parallax::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    filter: brightness(.8);
+}
+
+ /*Newsletter*/
+
+ h3.title-nn{
+     font-size: 36px;
+     color: green;
+ }
+div.newsletter{
+    position: relative;
+    height: auto;
+}
+
+div.newsletter::before{
+    background-image:url(../img/NEWSLETTER.jpg);
+    content: '';
+}
+
+div.newsletter .contenido{
+    padding: 100px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+div.newsletter .contenido p{
+    font-size: 1.2em;
+    text-transform: lowercase;
+}
+
+div.newsletter .contenido h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 7vw;
+    font-family: 'PT Sans',sans-serif;
+}
+
+.form-group-news{
+    text-align: center;
+    margin-left: 30%;
+    width: 500px;
+}
+
+/* Slider logos */
+
+div.logo{
+    height: 150px;
+    
+}
+
+/*mapa*/
+div.mapa{
+    height: 420px;
+    background-color: green;
+}
+
+.footer{
+    background-color: #1F242E;
+    color:white;
+}
+
+p.copyright{
+    background-color: #1F242E;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 20px 0 0 0;
+    text-align: center;
+}

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropstudio</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+    <script src="https://kit.fontawesome.com/7e34917784.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  
+</head>
+<body>
+
+       
+
+
+  <!-- Navigation -->
+ 
+  <nav class=" navbar fixed-top navbar-expand-lg bg-blanco ">
+        <div class="container">
+                <div class="navbar-brand" href="#"><img src="img/logiwelt_white.png"></div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon bg-blanco"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+  </nav><!---end nav-->
+
+  <!--carousel-->
+              <div class="carousel slide my-carousel" id="carousel-principal" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-principal" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-principal" data-slide-to="1"></li>
+                        <li data-target="#carousel-principal" data-slide-to="2"></li>
+                    </ol>     
+
+                    <div class="carousel-inner">
+                        <div>
+                            <div class="carousel-item active">
+
+                                <div class="carousel-caption ">
+                                    <h2>EN LOGIWELT CONSULTING DESARROLLAMOS</h2>
+                                    <h3 style="color: #248EF6">SOFWARE O SISTEMAS HECHOS A LA MEDIDA</h3>
+                                    <p>Nosotros te Asesoramos</p>
+                                </div>
+                                    <img src="img/img1.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                    <div class="carousel-caption ">
+                                        <h2>LIBERA CAPITAL DETENIDO EN INVENTARIOS</h2>
+                                        <h3 style="color: #248EF6">IMPLEMENTA NUESTRO CODIGO PROBADO Y COMPROBADO</h3>
+                                        <p>Contactanos y obten un diagnostico sin costo</p>
+                                    </div>
+                                    <img src="img/img1.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                    <div class="carousel-caption ">
+                                            <h2>Lorem ipsum dolor sit amet.</h2>
+                                            <h3 style="color: #248EF6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, placeat!</h3>
+                                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    <img src="img/img1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <a href="#carousel-principal" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a> 
+                        <a href="#carousel-principal" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+              </div><!--endcarousel-->
+
+<!--
+   <div class="barra navbar-expand-lg">        
+        <div class="container azul">
+                <div class="row elementos">
+                    <div class="col-sm-12">
+                        <i class="far fa-clock"></i>
+                            <p>Horario de atencion</p>
+                            <p>Lunes a Viernes</p>
+                </div>
+
+                <div class="col-sm">
+                        One of three columns
+                </div>
+
+                <div class="col-sm">
+                        One of three columns
+                </div>
+        </div>
+  </div>    
+-->
+ 
+<div class="container-fluid">
+      <div class=" row barra justify-content-center">
+            <div class=" col elementos">
+                    <div class="elemento" >
+                          <i class=" far fa-clock"></i>
+                          <p>Horario de atencion</p><br>
+                          <p>Lunes a Viernes 10:00-18:00</p>
+                    </div>
+            </div>
+            
+            <div class=" col elementos">
+                    <div class="elemento" >
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Corporativo Andares</p><br>
+                            <p>Avenida patria 2085 Piso M zapopan, Jalisco</p>
+                    </div>
+            </div>        
+                   
+            <div class=" col elementos">
+                    <div class="elemento" >
+                            <i class="fas fa-phone-alt"></i>
+                            <p>Telefono de Contacto</p>
+                            <p>52(33) 3000 2664 | +52 1 (33) 2256 0590</p>
+                    </div>
+            </div>  
+      </div>
+</div>
+
+<div class="servicios container">
+    <div class="row">
+        <div class="col-6">
+<p><strong>Que hacemos en Logiwelt</strong></p>
+<p>Somos una consultora especializada en proyectos de logistica</p>
+
+            <ul>
+              <!--First row-->
+              <div class="row">
+                        <div class="col-2">
+                             <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="grey-text">Creamos estrategias</p>
+                        <div style="height:5px"></div>
+              </div>
+                  </div>
+                  <!--/First row-->
+                  <!--First row-->
+              <div class="row">
+                    <div class="col-2">
+                         <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                        <p class="grey-text">Outsorcing o tercerización de almacenes</p>
+                    <div style="height:5px"></div>
+          </div>
+              </div>
+              <!--/First row-->
+              <!--First row-->
+              <div class="row">
+                    <div class="col-2">
+                         <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                        <p class="grey-text">Proyectos de Comercio Electronico</p>
+                    <div style="height:5px"></div>
+          </div>
+              </div>
+              <!--/First row-->
+              <!--First row-->
+              <div class="row">
+                    <div class="col-2">
+                         <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                        <p class="grey-text">Implementamos y Diseñamos Software</p>
+                    <div style="height:5px"></div>
+          </div>
+              </div>
+              <!--/First row-->
+              <!--First row-->
+              <div class="row">
+                    <div class="col-2">
+                         <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                        <p class="grey-text">Optimizamos tus inventarios</p>
+                    <div style="height:5px"></div>
+          </div>
+              </div>
+            </ul>
+        </div>
+        <div class="col-6">
+                <img src="img/grafica.png">
+        </div>
+    </div>
+</div>
+
+
+<div class="nosotros ">
+        <div class="container">
+            <div class="row " >
+                <div class="col align-self-center ">
+                    <img src="img/normal_nosotros.png">  
+                </div>
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col iconos-nos">
+                                <i class="fas fa-users"><span>Nosotros</span></i>
+                                <i class="far fa-file-alt"><span>mision</span></i>
+                                <i class="fas fa-bullseye"><span>Vision</span></i>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <p>Somos una consultora especializada en Cadenas de Suministro y proyectos de ingeniería - Mejoramos la rentabilidad de su empresa codiseñando estrategias y detonando mejoras enfocadas a la cadena de valor - Proponemos soluciones creativas enfocadas a la optimización de procesos productivos - Generamos soluciones desde compras pasando por planeación, producción, almacenamiento, distribución y punto de venta - Desarrollamos software hecho a la medida para su negocio - Contamos con experiencia en proyectos internacionales de mejora de procesos de logística, disminución de inventarios y otros temas de logística como selección de outsorcing o tercerización de almacenes, proyectos de comercio electrónico (e-commerce), entre otros.</p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+  </div>
+
+
+              <h2 class="my-5 h3 text-center">Servicios</h2>
+
+              <!--First row-->
+              <div class="row features-small mb-5 mt-3 ">
+      
+                <!--First column-->
+                <div class="col-md-4">
+                  <!--First row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">Free for personal and commercial use</h6>
+                      <p class="grey-text">Our license is user-friendly. Feel free to use MDB for both private as well as commercial projects.
+                      </p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/First row-->
+      
+                  <!--Second row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">400+ UI elements</h6>
+                      <p class="grey-text">An impressive collection of flexible components allows you to develop any project.
+                      </p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/Second row-->
+      
+                  <!--Third row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">600+ icons</h6>
+                      <p class="grey-text">Hundreds of useful, scalable, vector icons at your disposal.</p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/Third row-->
+      
+                  <!--Fourth row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">Fully responsive</h6>
+                      <p class="grey-text">It doesn't matter whether your project will be displayed on desktop, laptop, tablet or mobile phone. MDB
+                        looks great on each screen.</p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/Fourth row-->
+                </div>
+                <!--/First column-->
+      
+                <!--Second column-->
+                <div class="col-md-4 flex-center">
+                  <img src="img/grua.jpg"  class="z-depth-0 img-fluid">
+                </div>
+                <!--/Second column-->
+      
+                <!--Third column-->
+                <div class="col-md-4 mt-2">
+                  <!--First row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">70+ CSS animations</h6>
+                      <p class="grey-text">Neat and easy to use animations, which will increase the interactivity of your project and delight your visitors.
+                      </p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/First row-->
+      
+                  <!--Second row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">Plenty of useful templates</h6>
+                      <p class="grey-text">Need inspiration? Use one of our predefined templates for free.</p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/Second row-->
+      
+                  <!--Third row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">Easy installation</h6>
+                      <p class="grey-text">5 minutes, a few clicks and... done. You will be surprised at how easy it is.
+                      </p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/Third row-->
+      
+                  <!--Fourth row-->
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-check-circle fa-2x indigo-text"></i>
+                    </div>
+                    <div class="col-10">
+                      <h6 class="feature-title">Easy to use and customize</h6>
+                      <p class="grey-text">Using MDB is straightforward and pleasant. Components flexibility allows you deep customization. You will
+                        easily adjust each component to suit your needs.</p>
+                      <div style="height:15px"></div>
+                    </div>
+                  </div>
+                  <!--/Fourth row-->
+                </div>
+                <!--/Third column-->
+      
+              </div>
+              <!--/First row-->
+      
+            </section>
+            <!--Section: Not enough-->
+      
+            <hr class="mb-5">
+      
+            <!--Section: More-->
+            
+          </div>
+       
+<!--newsletter-->
+        <div class="newsletter parallax">
+                <div class="contenido contenedor">
+                    <h3 class="title-nn">NEWSLETTER</h3>
+                       <p>Suscribete y recibe promociones y novedades</p>
+                            <div class="col  ">
+                              <div class="form-group-news text-center justify-content-center">
+                              <input type="text" class="form-control" name="nombre" placeholder="Tu Correo Electronico" />
+                            </div>
+                            
+                        </div>
+                    
+                    <button type="submit" class="btn btn-primary mt-3 btn-sm">Enviar</button>
+
+                </div><!--Contenido-->
+          </div>
+<!--newsletter-->
+                  
+<div id="logos" class="logo">
+    
+</div>
+
+<!--Mapa-->
+    <div id="mapa" class="mapa"></div> 
+<!--Mapa-->
+
+
+<!--Seccion contacto -->
+<div class="container contact">
+<div class="row  align-items-center ">
+
+        <div class=" col-12 col-lg-6 mt-3 ">
+                <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="correo" id="correo" placeholder="Correo Electronico">
+                        </div>
+                        <div class="form-group">
+                                <input type="tel" class="form-control" name="telefono" id="telefono" placeholder="Telefono">
+                        </div>
+    
+                        <div class="form-group">
+                            <textarea  class="form-control" name="mensaje" id="Mensaje" placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3 btn-lg btn-block">Enviar</button>
+
+
+        </div>
+
+
+
+
+        <div class="col-12 col-lg-6 info ">
+                <h2>Contacto</h2>
+                <hr>
+                <address>
+                  <p>En <strong>Logiwelt</strong> estamos a tu servicio.</p>
+                  
+                  <br>
+                </address>
+                  
+                <p>
+                  <i class="fas fa-phone-alt"></i>
+                  (123) 456-7890
+                </p>  
+                  
+                <p>
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:#">info@logiwelt.com</a>
+                </p>
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Corporativo Andares Avenida patria 2085 Piso M zapopan, Jalisco
+                </p>   
+                
+        </div>
+
+    </div>
+  </div>
+
+
+
+  <footer class="mt-5 footer">
+        <div class="container-fluid bg-faded mt-5">
+          <div class="container">
+            <div class="row py-3">
+              <!-- footer column 1 start -->
+              <div class="col-md-4">
+                <!-- row start -->
+                <div class="row py-2">
+                    <div class="col-sm-3 hidden-md-down">
+                            <i class="fas fa-users"></i>
+                    </div>
+                  <div class="col-sm-9">
+                    <p>Somos una empresa consultora especialiada en proyectos de logistica
+                        ,optimización de almacenes e invventarios y software para logistiva
+                    </p>
+                  </div>
+                </div>
+                <!-- row end -->
+              </div>
+              <!-- footer column 1 end -->
+              <!-- footer column 2 start -->
+              <div class="col-md-4">
+                <!-- row start -->
+                <div class="row py-2">
+                  <div class="col-sm-3 hidden-md-down">
+                        <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="col-sm-9">
+                        <h4>Contactanos</h4>
+                        <p>Corporativo Andares Av. Patria 2005 
+                            Piso M colonia Puerta de Hierro 
+                            zapopan Jalisco CP.45110 
+                            +52 (33) 2000 2664| +52 1 (33)2256 0590
+                            info@logiwelt.com
+                        </p>
+                        <p>
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter-square"></i>
+                                <i class="fab fa-google-plus-square"></i>
+                        </p>
+                   </div>  
+                </div>
+          <!-- row end -->
+            </div>
+            <!-- footer column 2 end -->
+
+            
+                </div>
+                <!-- footer column 3 end -->
+
+                <p class="copyright">
+                        Todos los derechos Reservados | LOGIWELT 2017
+                   </p>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="js/app.js"></script>     
+
+</body>
+</html>
